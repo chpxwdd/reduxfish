@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
-import { changeFirstName, changeSecondName } from "../actions/main";
+import { changeFirstName, changeSecondName } from "../../actions/main";
 
-class MainComponent extends Component {
+class Main extends Component {
   render() {
     const {
       firstName,
@@ -57,4 +57,4 @@ const mapDispatchToProps = dispatch => {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(MainComponent);
+)(Main);
