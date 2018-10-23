@@ -4,8 +4,8 @@ import {
 } from "../constants/main";
 
 const initialState = {
-  firstName: "initial firstName",
-  secondName: "initial secondName"
+  firstName: "",
+  secondName: ""
 };
 
 export const mainReducer = (state = initialState, action) => {
